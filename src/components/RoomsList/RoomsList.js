@@ -1,6 +1,5 @@
 import React from "react";
 import Room from "../../components/Room/Room";
-import Rooms from "../../pages/Rooms/Rooms";
 
 const RoomsList = ({ sortedRooms }) => {
   if (sortedRooms.length === 0) {

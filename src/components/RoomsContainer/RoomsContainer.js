@@ -4,7 +4,7 @@ import RoomsList from "../../components/RoomsList/RoomsList";
 import { RoomContext } from "../../context/context";
 
 const RoomsContainer = () => {
-  const { sortedRooms, rooms, loading } = useContext(RoomContext);
+  const { sortedRooms, rooms } = useContext(RoomContext);
 
   return (
     <div>
